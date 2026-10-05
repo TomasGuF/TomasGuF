@@ -23,12 +23,12 @@ def github(path):
         return json.load(response)
 
 
-def svg_frame(title, content, date, height=272):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="580" height="{height}" viewBox="0 0 580 {height}" role="img" aria-label="{escape(title)}">
+def svg_frame(title, content, date, height=272, width=580):
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{escape(title)}">
 <title>{escape(title)}</title>
-<rect x="1" y="1" width="578" height="{height-2}" rx="6" fill="#25282a" stroke="#3d4244"/>
+<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="6" fill="#22282a" stroke="#3a4440"/>
 <text x="28" y="35" fill="#b0b5b2" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{escape(title)}</text>
-<path d="M28 51H552" stroke="#3d4244"/>
+<path d="M28 51H{width-28}" stroke="#3a4440"/>
 {content}
 <text x="28" y="{height-18}" fill="#a1a6a7" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · {escape(date)}</text>
 </svg>'''
@@ -43,11 +43,13 @@ def stats_card(user, repos, date):
     ]
     parts = []
     for index, (value, label) in enumerate(metrics):
-        x = 28 + (index % 2) * 278
-        y = 102 + (index // 2) * 88
+        x = 28 + index * 209
+        y = 103
         parts.append(f'<text x="{x}" y="{y}" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{value:,}</text>')
         parts.append(f'<text x="{x}" y="{y+24}" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">{escape(label)}</text>')
-    return svg_frame('Actividad pública', '\n'.join(parts), date)
+        if index:
+            parts.append(f'<path d="M{x-18} 76V128" stroke="#3a4440"/>')
+    return svg_frame('Actividad pública', '\n'.join(parts), date, height=170, width=860)
 
 
 def languages_card(languages, date):

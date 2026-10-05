@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="54" viewBox="0 0 1200 54" role="img" aria-label="Separador de ondas animadas en gris y verde"><title>Separador de ondas animadas en gris y verde</title>
+<path fill="none" stroke="#8fae9b" stroke-opacity=".65" stroke-width="1.5"
+ d="M-240 26Q-90 7 60 26T360 26T660 26T960 26T1260 26T1560 26">
+<animateTransform attributeName="transform" type="translate" from="0 0" to="600 0" dur="14s" repeatCount="indefinite"/>
+</path>
+<path fill="none" stroke="#414b46" stroke-width="1" d="M0 29Q150 9 300 29T600 29T900 29T1200 29"/>
+</svg>

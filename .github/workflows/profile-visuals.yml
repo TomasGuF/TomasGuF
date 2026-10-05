@@ -42,12 +42,21 @@ jobs:
       - name: Aplicar la paleta del perfil
         run: python3 scripts/style_pacman.py
 
+      - name: Generar serpiente verde con contribuciones reales
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: TomasGuF
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake-light.svg?color_snake=#39945c&color_dots=#e7ebe8,#c5e2cf,#89c5a0,#57a878,#2e7850
+            assets/snake-dark.svg?palette=github-dark&color_snake=#63c287&color_dots=#2b3430,#254b34,#326d46,#489964,#70c58c
+
       - name: Publicar visuales generados
         run: |
-          git add assets/github-stats.svg assets/languages.svg assets/pacman-light.svg assets/pacman-dark.svg
+          git add assets/github-stats.svg assets/languages.svg assets/pacman-light.svg assets/pacman-dark.svg assets/snake-light.svg assets/snake-dark.svg
           if git diff --staged --quiet; then
             exit 0
           fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: actualizar estadísticas y Pac-Man'
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: actualizar estadísticas y contribuciones animadas'
           git pull --rebase origin main
           git push
