@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Tomás Guerra Fuentes · Ingeniería de software, datos y diseño de sistemas · PUCV, Chile" />
-</p>
-
-Estudio **Ingeniería Informática en la PUCV**. Me gusta entender los problemas, convertirlos en requisitos y diseñar sistemas que tengan sentido para quienes los usan.
-
-En mis proyectos he trabajado en análisis, modelamiento, desarrollo y datos. Aporto iniciativa, pensamiento analítico y comunicación para trabajar en equipo.
-
 ### ◇ Tech Stack
 
 <p align="center">
