@@ -1,139 +1,165 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Tomás Guerra Fuentes · Ingeniería de software · PUCV · Limache, Chile" />
+  <img src="./assets/header.svg" width="100%" alt="Tomás Guerra Fuentes · Ingeniería de software, datos y diseño de sistemas · PUCV, Chile" />
 </p>
+
+Estudio **Ingeniería Informática en la PUCV**. Me gusta entender los problemas, convertirlos en requisitos y diseñar sistemas que tengan sentido para quienes los usan.
+
+En mis proyectos he trabajado en análisis, modelamiento, desarrollo y datos. Aporto iniciativa, pensamiento analítico y comunicación para trabajar en equipo.
+
+### ◇ Tech Stack
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tom%C3%A1s-guerra-fuentes/">LinkedIn ↗</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/TomasGuF?tab=repositories">Repositorios ↗</a>
+  <img src="./assets/tech-stack.svg" width="470" alt="C#, Java, Python, C, .NET, Angular, React, Node.js, Express, PostgreSQL, SQLite, Apache Kafka, Git, GitHub y Figma" />
 </p>
 
-## Sobre mí
+<details>
+<summary>Mi stack, en detalle</summary>
 
-Estudio **Ingeniería Informática en la Pontificia Universidad Católica de Valparaíso**. Me interesa la ingeniería de software: entender un problema, definir sus requisitos y diseñar cómo debe funcionar un sistema.
+| Área | Tecnologías y herramientas |
+| :--- | :--- |
+| Programación | C# · Java · Python · C · SQL |
+| Aplicaciones | .NET Core · Angular · Ionic · React · Node.js · Express · APIs REST |
+| Datos | PostgreSQL · SQLite · pandas · Dask · PySpark · Apache Kafka · Parquet · Spark SQL |
+| Ingeniería de software | Requisitos · UML · BPMN · DFD · Modelamiento · Arquitectura · Patrones de diseño |
+| Colaboración | Git · GitHub · Scrum · Jira · Confluence · Figma |
 
-En proyectos académicos y personales he liderado el **levantamiento de requisitos**, modelado procesos y diseñado flujos y prototipos para apoyar la implementación. También he trabajado en documentación de sistemas y análisis masivo de datos.
+</details>
 
-Aporto pensamiento analítico, iniciativa, comunicación clara y capacidad de trabajo en equipo.
+### ◈ Learning Achievements
 
-## Ingeniería de software
+<p align="center">
+  <img src="./assets/learning/software.svg" width="24%" alt="Aprendizaje autónomo: requisitos, arquitectura, modelamiento y patrones de diseño" />
+  <img src="./assets/learning/applications.svg" width="24%" alt="Aprendizaje autónomo: POO, APIs REST, .NET Core y Angular" />
+  <img src="./assets/learning/data.svg" width="24%" alt="Aprendizaje autónomo: SQL, Dask, PySpark y Apache Kafka" />
+  <img src="./assets/learning/senssa.svg" width="24%" alt="Senssa: primer lugar en The Lift PUCV 2025" />
+</p>
 
-| Análisis y requisitos | Modelamiento y diseño | Desarrollo y colaboración |
-| :--- | :--- | :--- |
-| Necesidades, procesos, reglas de negocio, requisitos funcionales y no funcionales. | Modelamiento de software, arquitectura, patrones de diseño, UML, BPMN y DFD. | Programación orientada a objetos, APIs REST, aplicaciones web y móviles, Scrum y Git. |
+Profundizo estos temas por mi cuenta y los aplico en mis proyectos. Con **Senssa** obtuvimos el primer lugar en **The Lift PUCV 2025**.
 
-## Tecnologías y herramientas
+### ▣ Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <p><strong>Programación</strong></p>
-      <p><img src="assets/stack-programming.svg" width="171" height="38" alt="C#, Java, Python y C" /></p>
-      <p>C# · Java · Python · C · SQL</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><strong>Desarrollo web y móvil</strong></p>
-      <p><img src="assets/stack-development.svg" width="215" height="38" alt=".NET, Angular, React, Node.js y Express" /></p>
-      <p>.NET Core · Angular · Ionic · React · Node.js · Express</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p><strong>Datos y bases de datos</strong></p>
-      <p><img src="assets/stack-data.svg" width="127" height="38" alt="PostgreSQL, SQLite y Apache Kafka" /></p>
-      <p>PostgreSQL · SQLite · pandas · Dask · PySpark · Apache Kafka · Parquet · Spark SQL</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><strong>Trabajo y colaboración</strong></p>
-      <p><img src="assets/stack-tools.svg" width="127" height="38" alt="Git, GitHub y Figma" /></p>
-      <p>Scrum · Git · GitHub · Jira · Confluence · Figma</p>
-    </td>
-  </tr>
-</table>
+#### Software · Datos · Innovación
 
-## Proyectos seleccionados
+<table width="100%">
+<tbody>
+<tr>
+<td width="50%" valign="top">
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/project-patitasgo.svg" width="100%" alt="PatitasGo · Adopción y rescate animal" />
-      <h3>PatitasGo</h3>
-      <p>Portal web y móvil de adopción y rescate animal. Proyecto académico en equipo, <strong>en desarrollo</strong>.</p>
-      <p><strong>Mi aporte:</strong> liderazgo en requisitos funcionales y no funcionales, reglas de negocio, flujos y prototipos de alta fidelidad.</p>
-      <p><sub>Ionic · React · Node.js · Express · PostgreSQL · Figma</sub></p>
-      <p><a href="https://github.com/Panchiky/Portal-de-adopcion-y-rescate-de-animales">Explorar el repositorio del equipo ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/project-beetracer.svg" width="100%" alt="Beetracer · Análisis de una plataforma logística" />
-      <h3>Beetracer</h3>
-      <p>Análisis y documentación de una plataforma logística de trazabilidad.</p>
-      <p><strong>Mi aporte:</strong> liderazgo en ingeniería inversa, diagramas de flujo de datos, modelos de datos y especificaciones de procesos.</p>
-      <p><sub>Ingeniería inversa · DFD · Modelamiento de datos · Documentación</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/project-flights.svg" width="100%" alt="Análisis de 7.013.508 registros de vuelos" />
-      <h3>Análisis masivo de vuelos</h3>
-      <p>Procesamiento y análisis de <strong>7.013.508 registros de vuelos de 2022</strong>.</p>
-      <p><strong>Mi aporte:</strong> análisis de puntualidad, cancelaciones y desempeño de aerolíneas, aeropuertos y rutas.</p>
-      <p><sub>Dask · PySpark · Parquet · Spark SQL</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/project-senssa.svg" width="100%" alt="Senssa · Propuesta tecnológica con IA, sensores y wearables" />
-      <h3>Senssa</h3>
-      <p>Propuesta tecnológica con IA, sensores y wearables para anticipar episodios de desregulación en niños con autismo.</p>
-      <p><strong>Mi aporte:</strong> ideación, investigación de la necesidad, modelo de negocio y presentación de la propuesta.</p>
-      <p><sub>Innovación · Investigación · Modelo de negocio</sub></p>
-    </td>
-  </tr>
-</table>
+<h3>
+  <a href="https://github.com/Panchiky/Portal-de-adopcion-y-rescate-de-animales"><img src="./assets/icons/patitasgo.svg" width="30" height="30" align="middle" alt="PatitasGo" /></a>
+  &nbsp;<a href="https://github.com/Panchiky/Portal-de-adopcion-y-rescate-de-animales">PatitasGo</a>
+</h3>
 
-## Aprendizaje continuo
-
-Profundizo por mi cuenta en los temas que forman parte de mi formación y mis proyectos:
-
-| Ingeniería de software | Desarrollo de aplicaciones | Datos y procesamiento |
-| :--- | :--- | :--- |
-| Requisitos, modelamiento, arquitectura y patrones de diseño. | Programación orientada a objetos, APIs REST, .NET Core, Angular e ingeniería web y móvil. | SQL, bases de datos, pandas, Dask, PySpark y Apache Kafka. |
-
-## Reconocimiento
+<p>Portal web y móvil de adopción y rescate animal. Proyecto académico en equipo, en desarrollo.</p>
+<p><strong>Mi aporte:</strong> liderazgo en requisitos, reglas de negocio, flujos y prototipos de alta fidelidad.</p>
 
 <p>
-  <img src="assets/senssa.svg" width="100%" alt="Primer lugar The Lift PUCV 2025 con Senssa" />
+  <img src="./assets/badges/ionic.svg" alt="Ionic" />
+  <img src="./assets/badges/react.svg" alt="React" />
+  <img src="./assets/badges/nodejs.svg" alt="Node.js" />
+  <img src="./assets/badges/express.svg" alt="Express" />
+  <img src="./assets/badges/postgresql.svg" alt="PostgreSQL" />
+  <img src="./assets/badges/figma.svg" alt="Figma" />
+</p>
+<p><sub>El enlace lleva al repositorio del equipo.</sub></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icons/beetracer.svg" width="30" height="30" align="middle" alt="Beetracer" /> &nbsp;Beetracer</h3>
+
+<p>Análisis y documentación de una plataforma logística de trazabilidad.</p>
+<p><strong>Mi aporte:</strong> liderazgo en ingeniería inversa, diagramas de flujo de datos, modelos y especificaciones de procesos.</p>
+
+<p>
+  <img src="./assets/badges/dfd.svg" alt="DFD" />
+  <img src="./assets/badges/data-modeling.svg" alt="Modelamiento" />
+  <img src="./assets/badges/documentation.svg" alt="Documentación" />
 </p>
 
-**Primer lugar en el torneo The Lift PUCV 2025**, con la propuesta Senssa.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## Estadísticas de GitHub
+<h3><img src="./assets/icons/flights.svg" width="30" height="30" align="middle" alt="Análisis de vuelos" /> &nbsp;Análisis de vuelos</h3>
+
+<p>Procesamiento y análisis de <strong>7.013.508 registros de vuelos de 2022</strong>.</p>
+<p><strong>Mi aporte:</strong> análisis de puntualidad, cancelaciones y desempeño de aerolíneas, aeropuertos y rutas.</p>
+
+<p>
+  <img src="./assets/badges/dask.svg" alt="Dask" />
+  <img src="./assets/badges/pyspark.svg" alt="PySpark" />
+  <img src="./assets/badges/parquet.svg" alt="Parquet" />
+  <img src="./assets/badges/spark-sql.svg" alt="Spark SQL" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icons/senssa.svg" width="30" height="30" align="middle" alt="Senssa" /> &nbsp;Senssa</h3>
+
+<p>Propuesta con IA, sensores y wearables para anticipar episodios de desregulación en niños con autismo.</p>
+<p><strong>Mi aporte:</strong> ideación, investigación de la necesidad, modelo de negocio y presentación de la propuesta.</p>
+
+<p>
+  <img src="./assets/badges/innovation.svg" alt="Innovación" />
+  <img src="./assets/badges/research.svg" alt="Investigación" />
+  <img src="./assets/badges/pitch.svg" alt="Pitch" />
+</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### ◫ Development Metrics
 
 <p align="center">
-  <img src="assets/github-stats.svg" width="410" alt="Estadísticas públicas de TomasGuF: repositorios propios, estrellas, seguidores y forks recibidos" />
-  <img src="assets/languages.svg" width="410" alt="Distribución de lenguajes en repositorios públicos propios, excluyendo forks y este perfil" />
+  <img src="./assets/github-stats.svg" width="100%" alt="Estadísticas públicas de TomasGuF: repositorios propios, estrellas, seguidores y forks recibidos" />
 </p>
 
-## Contribuciones en modo Pac-Man
+<details>
+<summary>Lenguajes en mis repositorios públicos</summary>
+
+<p align="center">
+  <img src="./assets/languages.svg" width="580" alt="Distribución real de lenguajes en repositorios públicos propios, excluyendo forks y este perfil" />
+</p>
+
+</details>
+
+### ⌁ Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomasGuF/TomasGuF/main/assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomasGuF/TomasGuF/main/assets/snake-light.svg" />
+    <img src="./assets/snake-dark.svg" width="100%" alt="Serpiente verde que recorre las contribuciones reales de TomasGuF" />
+  </picture>
+</p>
+
+<details>
+<summary>También en modo Pac-Man</summary>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TomasGuF/TomasGuF/main/assets/pacman-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TomasGuF/TomasGuF/main/assets/pacman-light.svg" />
-    <img src="assets/pacman-dark.svg" width="100%" alt="Pac-Man recorre las contribuciones reales de TomasGuF del último año" />
+    <img src="./assets/pacman-dark.svg" width="100%" alt="Pac-Man recorre las contribuciones reales de TomasGuF" />
   </picture>
 </p>
 
-[Ver mis contribuciones en GitHub ↗](https://github.com/TomasGuF?tab=overview) · [Animación con Pac-Man Contribution Graph](https://github.com/abozanona/pacman-contribution-graph)
+</details>
 
-## Conversemos
+<p align="center"><sub>Actualización diaria · <a href="https://github.com/Platane/snk">Snake</a> · <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man</a></sub></p>
+
+<img src="./assets/wave-divider.svg" width="100%" alt="Separador de ondas animadas en menta, azul y violeta" />
+
+### Conversemos
 
 Me interesan **oportunidades laborales** donde pueda aportar en análisis, diseño y desarrollo de software.
 
-**[Encuéntrame en LinkedIn](https://www.linkedin.com/in/tom%C3%A1s-guerra-fuentes/)** · **[Explora mis repositorios públicos](https://github.com/TomasGuF?tab=repositories)**
+**[LinkedIn ↗](https://www.linkedin.com/in/tom%C3%A1s-guerra-fuentes/)** &nbsp; · &nbsp; **[Mis repositorios ↗](https://github.com/TomasGuF?tab=repositories)**
 
-<p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Tomás Guerra Fuentes · PUCV · Chile" />
-</p>
-
-<!-- Inspiración visual: Ahtisham-1214/Ahtisham-1214 y AkshayBangarAB/AkshayBangarAB. -->
-<!-- Íconos: tandpfun/skill-icons; versión en escala de grises. -->
-<!-- Pac-Man: abozanona/pacman-contribution-graph. Estadísticas generadas desde datos públicos de GitHub. -->
+<!-- Diseño inspirado en antonisloukis/antonisloukis. Íconos: tandpfun/skill-icons (licencia MIT en assets/skill-icons-LICENSE.txt). -->
+<!-- Estadísticas y animaciones generadas a partir de datos públicos reales de TomasGuF. -->

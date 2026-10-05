@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="238" viewBox="0 0 1200 238" role="img" aria-label="Tomás Guerra Fuentes · Ingeniería de software, datos y diseño de sistemas · PUCV, Chile"><title>Tomás Guerra Fuentes · Ingeniería de software, datos y diseño de sistemas · PUCV, Chile</title>
-<rect width="1200" height="238" rx="8" fill="#161b1d"/>
-<path d="M44 44H108" stroke="#8fae9b" stroke-width="3"/>
-<text x="44" y="104" font-family="Arial, DejaVu Sans, sans-serif" font-size="47" font-weight="700" fill="#eff1ef">Tomás Guerra Fuentes</text>
-<text x="46" y="145" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" fill="#adb5b0">Ingeniería de software · Datos · Diseño de sistemas</text>
-<text x="46" y="201" font-family="Arial, DejaVu Sans, sans-serif" font-size="15" fill="#8f9a93">PUCV / Chile</text>
-<g transform="translate(1042 54)" fill="none" stroke="#617b69" stroke-width="2">
-<rect width="100" height="100" rx="4"/><path d="M0 50H100M50 0V100" stroke="#313c35"/>
-<path d="M17 74L41 50L17 26M58 74H82" stroke="#9ab7a3" stroke-width="5"/>
+<rect width="1200" height="238" rx="8" fill="#202438"/>
+<path d="M44 44H108" stroke="#abd4c4" stroke-width="3"/>
+<path d="M110 44H141" stroke="#95cdf6" stroke-width="3"/>
+<path d="M143 44H160" stroke="#b98bc5" stroke-width="3"/>
+<text x="44" y="104" font-family="Arial, DejaVu Sans, sans-serif" font-size="47" font-weight="700" fill="#e9f0ee">Tomás Guerra Fuentes</text>
+<text x="46" y="145" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" fill="#c0d0ce">Ingeniería de software · Datos · Diseño de sistemas</text>
+<text x="46" y="201" font-family="Arial, DejaVu Sans, sans-serif" font-size="15" fill="#abd4c4">PUCV / Chile</text>
+<g transform="translate(1042 54)" fill="none" stroke="#8baba8" stroke-width="2">
+<rect width="100" height="100" rx="4"/><path d="M0 50H100M50 0V100" stroke="#3e4f59"/>
+<path d="M17 74L41 50L17 26" stroke="#abd4c4" stroke-width="5"/>
+<path d="M58 74H82" stroke="#95cdf6" stroke-width="5"/>
 </g></svg>

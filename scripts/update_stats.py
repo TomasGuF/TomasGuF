@@ -10,7 +10,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-COLORS = ['#8fae9b', '#b0b5b2', '#737d77', '#b8cbbd', '#465c4e', '#606966', '#d2d5d3']
+COLORS = ['#abd4c4', '#95cdf6', '#b98bc5', '#87b3a5', '#6b839d', '#7d3b94', '#e9f0ee']
 
 
 def github(path):
@@ -26,11 +26,11 @@ def github(path):
 def svg_frame(title, content, date, height=272, width=580):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{escape(title)}">
 <title>{escape(title)}</title>
-<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="6" fill="#22282a" stroke="#3a4440"/>
-<text x="28" y="35" fill="#b0b5b2" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{escape(title)}</text>
-<path d="M28 51H{width-28}" stroke="#3a4440"/>
+<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="6" fill="#28303d" stroke="#4c6264"/>
+<text x="28" y="35" fill="#abd4c4" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{escape(title)}</text>
+<path d="M28 51H{width-28}" stroke="#4c6264"/>
 {content}
-<text x="28" y="{height-18}" fill="#a1a6a7" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · {escape(date)}</text>
+<text x="28" y="{height-18}" fill="#c0d0ce" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · {escape(date)}</text>
 </svg>'''
 
 
@@ -45,10 +45,10 @@ def stats_card(user, repos, date):
     for index, (value, label) in enumerate(metrics):
         x = 28 + index * 209
         y = 103
-        parts.append(f'<text x="{x}" y="{y}" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{value:,}</text>')
-        parts.append(f'<text x="{x}" y="{y+24}" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">{escape(label)}</text>')
+        parts.append(f'<text x="{x}" y="{y}" fill="#e9f0ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">{value:,}</text>')
+        parts.append(f'<text x="{x}" y="{y+24}" fill="#c0d0ce" font-size="13" font-family="DejaVu Sans, sans-serif">{escape(label)}</text>')
         if index:
-            parts.append(f'<path d="M{x-18} 76V128" stroke="#3a4440"/>')
+            parts.append(f'<path d="M{x-18} 76V128" stroke="#4c6264"/>')
     return svg_frame('Actividad pública', '\n'.join(parts), date, height=170, width=860)
 
 
