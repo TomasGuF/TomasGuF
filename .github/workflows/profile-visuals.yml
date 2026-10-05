@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/profile-visuals.yml'
       - 'scripts/update_stats.py'
+      - 'scripts/style_pacman.py'
 
 concurrency:
   group: profile-visuals
@@ -38,10 +39,11 @@ jobs:
           games: pacman
           hide_month_labels: 'false'
 
+      - name: Aplicar la paleta del perfil
+        run: python3 scripts/style_pacman.py
+
       - name: Publicar visuales generados
         run: |
-          cp dist/pacman-contribution-graph.svg assets/pacman-light.svg
-          cp dist/pacman-contribution-graph-dark.svg assets/pacman-dark.svg
           git add assets/github-stats.svg assets/languages.svg assets/pacman-light.svg assets/pacman-dark.svg
           if git diff --staged --quiet; then
             exit 0
