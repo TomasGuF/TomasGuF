@@ -1,0 +1,51 @@
+name: Actualizar visuales del perfil
+
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-visuals.yml'
+      - 'scripts/update_stats.py'
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Obtener archivos
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generar estadísticas públicas
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: TomasGuF
+        run: python3 scripts/update_stats.py
+
+      - name: Generar Pac-Man con contribuciones reales
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: TomasGuF
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+          hide_month_labels: 'false'
+
+      - name: Publicar visuales generados
+        run: |
+          cp dist/pacman-contribution-graph.svg assets/pacman-light.svg
+          cp dist/pacman-contribution-graph-dark.svg assets/pacman-dark.svg
+          git add assets/github-stats.svg assets/languages.svg assets/pacman-light.svg assets/pacman-dark.svg
+          if git diff --staged --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: actualizar estadísticas y Pac-Man'
+          git pull --rebase origin main
+          git push
