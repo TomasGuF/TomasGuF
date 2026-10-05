@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="170" viewBox="0 0 860 170" role="img" aria-label="Actividad pública">
 <title>Actividad pública</title>
-<rect x="1" y="1" width="858" height="168" rx="6" fill="#22282a" stroke="#3a4440"/>
-<text x="28" y="35" fill="#b0b5b2" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">Actividad pública</text>
-<path d="M28 51H832" stroke="#3a4440"/>
-<text x="28" y="103" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">1</text>
-<text x="28" y="127" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">Repositorios propios</text>
-<text x="237" y="103" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
-<text x="237" y="127" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">Estrellas recibidas</text>
-<path d="M219 76V128" stroke="#3a4440"/>
-<text x="446" y="103" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
-<text x="446" y="127" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">Seguidores</text>
-<path d="M428 76V128" stroke="#3a4440"/>
-<text x="655" y="103" fill="#f0f1ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
-<text x="655" y="127" fill="#a1a6a7" font-size="13" font-family="DejaVu Sans, sans-serif">Forks recibidos</text>
-<path d="M637 76V128" stroke="#3a4440"/>
-<text x="28" y="152" fill="#a1a6a7" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · 2026-10-05 UTC</text>
+<rect x="1" y="1" width="858" height="168" rx="6" fill="#28303d" stroke="#4c6264"/>
+<text x="28" y="35" fill="#abd4c4" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">Actividad pública</text>
+<path d="M28 51H832" stroke="#4c6264"/>
+<text x="28" y="103" fill="#e9f0ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">1</text>
+<text x="28" y="127" fill="#c0d0ce" font-size="13" font-family="DejaVu Sans, sans-serif">Repositorios propios</text>
+<text x="237" y="103" fill="#e9f0ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
+<text x="237" y="127" fill="#c0d0ce" font-size="13" font-family="DejaVu Sans, sans-serif">Estrellas recibidas</text>
+<path d="M219 76V128" stroke="#4c6264"/>
+<text x="446" y="103" fill="#e9f0ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
+<text x="446" y="127" fill="#c0d0ce" font-size="13" font-family="DejaVu Sans, sans-serif">Seguidores</text>
+<path d="M428 76V128" stroke="#4c6264"/>
+<text x="655" y="103" fill="#e9f0ee" font-size="33" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">0</text>
+<text x="655" y="127" fill="#c0d0ce" font-size="13" font-family="DejaVu Sans, sans-serif">Forks recibidos</text>
+<path d="M637 76V128" stroke="#4c6264"/>
+<text x="28" y="152" fill="#c0d0ce" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · 2026-10-05 UTC</text>
 </svg>

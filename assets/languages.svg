@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="272" viewBox="0 0 580 272" role="img" aria-label="Lenguajes">
 <title>Lenguajes</title>
-<rect x="1" y="1" width="578" height="270" rx="6" fill="#22282a" stroke="#3a4440"/>
-<text x="28" y="35" fill="#b0b5b2" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">Lenguajes</text>
-<path d="M28 51H552" stroke="#3a4440"/>
+<rect x="1" y="1" width="578" height="270" rx="6" fill="#28303d" stroke="#4c6264"/>
+<text x="28" y="35" fill="#abd4c4" font-size="17" font-weight="700" font-family="Arial, DejaVu Sans, sans-serif">Lenguajes</text>
+<path d="M28 51H552" stroke="#4c6264"/>
 <text x="28" y="101" fill="#d4d8d5" font-size="17" font-family="DejaVu Sans, sans-serif">Aún no hay código público propio</text>
 <text x="28" y="131" fill="#a1a6a7" font-size="15" font-family="DejaVu Sans, sans-serif">para calcular esta distribución.</text>
 <text x="28" y="179" fill="#b0b5b2" font-size="13" font-family="DejaVu Sans, sans-serif">Mis conocimientos están en la sección de tecnologías.</text>
-<text x="28" y="254" fill="#a1a6a7" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · 2026-10-05 UTC</text>
+<text x="28" y="254" fill="#c0d0ce" font-size="11" font-family="DejaVu Sans, sans-serif">Datos públicos · 2026-10-05 UTC</text>
 </svg>
