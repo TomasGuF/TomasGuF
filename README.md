@@ -1,4 +1,4 @@
-### ◇ Tech Stack
+### ◇ Tech Stackk
 
 <p align="center">
   <img src="./assets/tech-stack.svg" width="470" alt="C#, Java, Python, C, .NET, Angular, React, Node.js, Express, PostgreSQL, SQLite, Apache Kafka, Git, GitHub y Figma" />
